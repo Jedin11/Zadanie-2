@@ -1,0 +1,151 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #fca311;
+    width: 50%;
+    height: 700px;
+    margin-top: 200px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 100px 500px;
+    color: #14213d;
+}
+
+header{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: repeat(11, 54px);
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas: 
+    'meno tel casStret'
+    'reset heslo cislo'
+    'fotka mail datNar'
+    'farba button url'
+    'search tyzden url'
+    'search tyzden seniornost'
+    'mesiac ocPlat seniornost'
+    'mesiac ocPlat seniornost'
+    'zivot casPas tos'
+    'zivot casPas tos'
+    'submit submit submit'
+    ;
+}
+
+.celeMeno{
+    flex-direction: column;
+    grid-area: meno;
+}
+.telCis{
+    grid-area: tel;
+}
+.casStret{
+    grid-area: casStret;
+}
+.url{
+    grid-area: url;
+}
+.tyzStret{
+    grid-area: tyzden;
+}
+.tyzStret input{
+    width: 190px;
+}
+
+.hladat{
+    grid-area: search;
+}
+.reset{
+    grid-area: reset;
+}
+.ocPlat{
+    grid-area: ocPlat;
+}
+.seniornost{
+    grid-area: seniornost;
+}
+.heslo{
+    grid-area: heslo;
+}
+.cislo{
+    grid-area: cislo;
+}
+.mesiac{
+    grid-area: mesiac;
+}
+.fotka{
+    grid-area: fotka;
+}
+.zivot{
+    grid-area: zivot;
+}
+.mail{
+    grid-area: mail;
+}
+.casPas{
+    grid-area: casPas;
+}
+.datNar{
+    grid-area: datNar;
+}
+.color{
+    grid-area: farba;
+}
+
+.button{
+    grid-area: button;
+}
+.submit{
+    justify-content: center;
+    grid-area: submit;
+}
+
+.input{
+    flex-direction: column;
+    display: flex;
+}
+
+.div1{
+    width: 314px;
+    height: 54px;
+}
+.div1 div{
+    margin-left: 60px;
+}
+
+.div2{
+    align-items: center;
+    justify-content: center;
+    width: 314px;
+    height: 108px;
+}
+
+.div3{
+    width: 314px;
+    height: 162px;
+}
+
+.div4{
+    flex-direction: row;
+    width: 942px;
+    height: 54px;
+}
+
+.Tos{
+    flex-direction: row;
+    grid-area: tos;
+}

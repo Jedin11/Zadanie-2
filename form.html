@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrácia</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&family=Roboto+Condensed:ital@1&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main></div>
+        <header>Registracia</header>
+        <form action="">
+            <div class="input celeMeno div1"><div>
+                <label for="text">Celé meno:</label></div><div>
+                <input required id="text" minlength="5" autocomplete="name" placeholder="Janko Mrkvicka" name="celeMeno" type="text">
+            </div></div>
+            <div class="input telCis div1"><div>
+                <label for="tel">Telefonne cislo:
+                </label></div><div>
+                <input required id="tel" autocomplete="tel" placeholder="0000 000 000" name="telCislo" type="tel">
+            </div></div>
+            <div class="input casStret div1"><div>
+                <label for="time">Cas kedy sa chcete stretnut:</label></div><div>
+                <input required id="time" name="casStretnutia" type="time"></div>
+            </div>
+            <div class="input url div2"><div>
+                <label for="url">Zadajte url vasho projektu:</label></div><div>
+                <input required id="url" name="projektStranka" type="url">
+            </div></div>
+            <div class="input tyzStret div2"><div>
+                <label for="week">Tyzden kedy sa chcete stretnut:</label></div><div>
+                <input required id="week" name="tyzdenStretnutia" type="week"></div>
+            </div>
+            <div class="input hladat div2"><div>
+                <label for="search">Tu si mozte nieco vyhladat</label></div><div>
+                <input required id="search" name="hladat" placeholder="never gonna give you up" type="search"></div>
+            </div>
+            <div class="input reset div1"><div>
+                <label for="reset">tymto tlacitkom zresetujete formular:</label></div><div>
+                <input id="reset" name="reset" type="reset"></div>
+            </div>
+            <div class="input ocPlat div2"><div>
+                <label for="range">Presunte ukazovac na ocakavany plat(na hodinu)</label></div><div>
+                <input id="range" name="ocakavanyPlat" type="range"></div>
+            </div>
+            <div class="input seniornost div3"><div>
+                <label for="radio">vyberte svoju seniornost</label></div><div>
+                <input id="radio" checked name="seniornost" type="radio"></div>
+            </div>
+            <div class="input heslo div1"><div>
+                <label for="password">Zadajte heslo:</label></div><div>
+                <input required id="password" name="" minlength="8" placeholder="heslo123" maxlength="16" autocomplete="current-password" type="password">
+            </div></div>
+            <div class="input cislo div1"><div>
+                <label for="number">Zadajte cislo od 0 po 9:</label></div><div>
+                <input required id="number" name="cislo" placeholder="#" maxlength="1" type="number"></div>
+            </div>
+            <div class="input mesiac div2"><div>
+                <label for="month">Zadajte mesiac kedy ste naposledy jedli rizoto:</label></div><div>
+                <input required id="month" name="mesiac" type="month"></div>
+            </div>
+            <div class="input fotka div1"><div>
+                <label for="image">Pridajte svoju fotku</label></div><div>
+                <input required id="image" src="" alt="Vaša fotka" name="fotka" type="image"></div>
+            </div>
+            <div class="input hidden"><div>
+                <label for="hidden"></label></div><div>
+                <input id="hidden" disabled name="nic" type="hidden"></div>
+            </div>
+            <div class="input zivot div2"><div>
+                <label for="file">pridajte svoj zivotopis</label></div><div>
+                <input required id="file" name="zivotopis" type="file"></div>
+            </div>
+            <div class="input mail div1"><div>
+                <label for="email">Zadajte svoj e-mail:</label></div><div>
+                <input required id="email" autocomplete="email" name="email" type="email"></div>
+            </div>
+            <div class="input casPas div2"><div>
+                <label for="datetime-local">Prosim vas zvolte casove pasmo Severnej Korei</label></div><div>
+                <input required id="datetime-local" name="casovePasmo" type="datetime-local"></div>
+            </div>
+            <div class="input datNar div1"><div>
+                <label for="date">Zvolte svoj datum narodenia</label></div><div>
+                <input required id="date" name="datumNarodenia" type="date"></div>
+            </div>
+            <div class="input color div1"><div>
+                <label for="color">Zvolte si farbu vasho profilu</label></div><div>
+                <input required id="color" name="farbaProfilu" type="color"></div>
+            </div>
+            <div class="input Tos div2"><div>
+                <input id="checkbox" name="zmluvnePodmienky" required type="checkbox"></div><div>
+                <label required for="checkbox">Suhlasim so zmluvnymi podmienkami a upisujem svoju dusu diablovi</label></div>
+            </div>
+            <div class="input button div1"><div>
+                <label for="button">Niake tlacitko</label></div><div>
+                <input id="button" name="nic2" type="button"></div>
+            </div>
+            <div class="input submit div4"><div>
+                <label for="submit">Tymto tlacitkom k nam zaslete vyplnene informacie, udaje svojej platobnej karty, svoju presnu adresu a kedy byvate najmenej doma:</label>
+                </div><div><input id="submit" type="submit"></div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
